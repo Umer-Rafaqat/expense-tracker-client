@@ -134,7 +134,7 @@ export default function IncomePage() {
 
             <div className="grid grid-cols-2 gap-3">
               <div>
-                <label className="block text-sm text-gray-500 mb-1.5">Amount ($)</label>
+                <label className="block text-sm text-gray-500 mb-1.5">Amount (PKR)</label>
                 <input
                   type="number"
                   min="0"

@@ -191,7 +191,7 @@ export default function ExpensePage() {
 
             <div className="grid grid-cols-2 gap-3">
               <div>
-                <label className="block text-sm text-gray-500 mb-1.5">Amount ($)</label>
+                <label className="block text-sm text-gray-500 mb-1.5">Amount (PKR)</label>
                 <input type="number" min="0" step="0.01" className="neu-input w-full px-4 py-3 text-sm"
                   placeholder="0.00" value={form.amount} onChange={(e) => setForm({ ...form, amount: e.target.value })} />
                 {errors.amount && <p className="text-red-500 text-xs mt-1">{errors.amount}</p>}
